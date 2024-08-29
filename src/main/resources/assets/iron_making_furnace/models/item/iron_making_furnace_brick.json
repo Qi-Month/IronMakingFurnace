@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "iron_making_furnace:item/iron_making_furnace_brick"
+	}
+}

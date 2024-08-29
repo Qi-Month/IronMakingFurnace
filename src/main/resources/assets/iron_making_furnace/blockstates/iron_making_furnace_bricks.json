@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "iron_making_furnace:block/iron_making_furnace_bricks"
+		}
+	}
+}

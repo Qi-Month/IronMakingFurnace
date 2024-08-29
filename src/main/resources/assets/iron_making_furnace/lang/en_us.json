@@ -1,0 +1,6 @@
+{
+	"itemGroup.iron_making_furnace.tab": "炼铁炉",
+	"item.iron_making_furnace.iron_making_furnace_brick": "耐热砖",
+	"block.iron_making_furnace.iron_making_furnace_bricks": "耐热砖块",
+	"block.iron_making_furnace.iron_making_furnace_controller": "炼铁炉控制器"
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AA",
+        "AA"
+    ],
+    "key": {
+        "A": {
+            "item": "iron_making_furnace:iron_making_furnace_brick"
+        }
+    },
+    "result": {
+        "item": "iron_making_furnace:iron_making_furnace_bricks"
+    }
+}

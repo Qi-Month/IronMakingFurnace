@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "iron_making_furnace:iron_making_furnace_brick"
+        },
+        "B": {
+            "tag": "minecraft:coals"
+        }
+    },
+    "result": {
+        "item": "iron_making_furnace:iron_making_furnace_controller"
+    }
+}

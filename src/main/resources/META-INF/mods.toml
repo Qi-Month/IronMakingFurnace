@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+logoFile = "pack.png"
+[[mods]]
+modId = "iron_making_furnace"
+version = "0.0.1"
+displayName = "Iron Making Furnace"
+authors = "${mod_authors}"
+description = '''${mod_description}'''
+[[dependencies.iron_making_furnace]]
+modId = "forge"
+mandatory = true
+versionRange = "${forge_version_range}"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.iron_making_furnace]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.iron_making_furnace]]
+modId = "create"
+mandatory = true
+versionRange = "[0.5.1.f,)"
+ordering = "NONE"
+side = "BOTH"
