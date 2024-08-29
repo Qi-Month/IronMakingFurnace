@@ -1,0 +1,9 @@
+{
+    "libs": [
+        {
+            "name": "Create",
+            "modid": "create",
+            "version": "0.5.1f"
+        }
+    ]
+}
