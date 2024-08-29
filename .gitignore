@@ -25,4 +25,9 @@ run
 forge*changelog.txt
 
 # lib
-/libs/* .jar
+/libs/*.jar
+
+# other
+.gitattributes
+changelog.txt
+CREDITS.txt
