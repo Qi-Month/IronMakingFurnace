@@ -1,4 +1,4 @@
-package com.QiMonth.iron_making_furnace.registers.modblock.Custom;
+package com.QiMonth.iron_making_furnace.registers.modblock.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;

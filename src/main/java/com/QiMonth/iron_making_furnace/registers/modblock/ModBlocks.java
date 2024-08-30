@@ -1,6 +1,6 @@
 package com.QiMonth.iron_making_furnace.registers.modblock;
 
-import com.QiMonth.iron_making_furnace.registers.modblock.Custom.Controller;
+import com.QiMonth.iron_making_furnace.registers.modblock.custom.Controller;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
