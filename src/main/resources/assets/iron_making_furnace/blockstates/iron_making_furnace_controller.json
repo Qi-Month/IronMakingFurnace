@@ -1,10 +1,10 @@
 {
 	"variants": {
-		"on=true": {
-			"model": "iron_making_furnace:block/iron_making_furnace_controller/on"
-		},
 		"on=false": {
 			"model": "iron_making_furnace:block/iron_making_furnace_controller/off"
+		},
+		"on=true": {
+			"model": "iron_making_furnace:block/iron_making_furnace_controller/on"
 		}
 	}
 }

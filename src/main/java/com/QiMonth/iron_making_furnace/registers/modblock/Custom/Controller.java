@@ -1,4 +1,4 @@
-package com.QiMonth.IronMakingFurnace.Registers.ModBlock.Custom;
+package com.QiMonth.iron_making_furnace.registers.modblock.Custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
@@ -17,14 +17,18 @@ public class Controller extends Block {
 
     public Controller(Properties properties) {
         super(properties);
+        // 让玩家放下后默认关闭
+        this.registerDefaultState(this.stateDefinition.any().setValue(ON, false));
     }
 
+    // 玩家右键(use)让其更换状态on or off(只能空手)
     @Override
     public InteractionResult use(BlockState state, Level level, BlockPos blockPos, Player player, InteractionHand hand, BlockHitResult result) {
-        if (!level.isClientSide && hand == InteractionHand.MAIN_HAND) {
+        if (!level.isClientSide && hand == InteractionHand.MAIN_HAND && player.getItemInHand(hand).isEmpty()) {
             level.setBlock(blockPos, state.cycle(ON), 3);
+            return super.use(state, level, blockPos, player, hand, result);
         }
-        return super.use(state, level, blockPos, player, hand, result);
+        return InteractionResult.SUCCESS;
     }
 
     @Override

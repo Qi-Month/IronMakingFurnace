@@ -1,6 +1,6 @@
-package com.QiMonth.IronMakingFurnace.Registers.ModBlock;
+package com.QiMonth.iron_making_furnace.registers.modblock;
 
-import com.QiMonth.IronMakingFurnace.Registers.ModBlock.Custom.Controller;
+import com.QiMonth.iron_making_furnace.registers.modblock.Custom.Controller;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -14,10 +14,10 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
-import static com.QiMonth.IronMakingFurnace.IronMakingFurnace.MODID;
-import static com.QiMonth.IronMakingFurnace.Registers.ModItem.ModItem.ITEMS;
+import static com.QiMonth.iron_making_furnace.IronMakingFurnace.MODID;
+import static com.QiMonth.iron_making_furnace.registers.moditem.ModItems.ITEMS;
 
-public class ModBlock {
+public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister
             .create(ForgeRegistries.BLOCKS, MODID);
 
@@ -40,6 +40,8 @@ public class ModBlock {
             new Controller(BlockBehaviour.Properties
                     .copy(Blocks.BRICKS)
                     .sound(SoundType.STONE)
+                    // 硬度为2, 爆炸抗性为6
+                    .strength(2.0f, 6.0f)
                     // 这边是一个比较运算符, 当条件符合ON的时候返回15的亮度,否则为3
                     .lightLevel(state -> state.getValue(Controller.ON) ? 15 : 3)
             ));
@@ -50,5 +52,6 @@ public class ModBlock {
             new Block(BlockBehaviour.Properties
                     .copy(Blocks.BRICKS)
                     .sound(SoundType.STONE)
+                    .strength(2.0f, 6.0f)
             ));
 }
