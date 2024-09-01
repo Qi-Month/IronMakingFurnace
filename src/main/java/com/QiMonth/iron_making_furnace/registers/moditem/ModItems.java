@@ -1,4 +1,4 @@
-package com.QiMonth.iron_making_furnace.registers.moditem;
+package com.qimonth.iron_making_furnace.registers.moditem;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;

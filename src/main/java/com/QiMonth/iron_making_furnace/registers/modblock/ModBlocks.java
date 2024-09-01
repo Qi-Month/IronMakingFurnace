@@ -1,4 +1,4 @@
-package com.QiMonth.iron_making_furnace.registers.modblock;
+package com.qimonth.iron_making_furnace.registers.modblock;
 
 import com.QiMonth.iron_making_furnace.registers.modblock.custom.Controller;
 import net.minecraft.world.item.BlockItem;

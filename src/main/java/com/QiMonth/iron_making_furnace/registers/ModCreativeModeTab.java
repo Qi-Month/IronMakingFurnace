@@ -1,4 +1,4 @@
-package com.QiMonth.iron_making_furnace.registers;
+package com.qimonth.iron_making_furnace.registers;
 
 import com.QiMonth.iron_making_furnace.registers.modblock.ModBlocks;
 import com.QiMonth.iron_making_furnace.registers.moditem.ModItems;

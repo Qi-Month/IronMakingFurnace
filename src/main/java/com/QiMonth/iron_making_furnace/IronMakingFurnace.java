@@ -1,4 +1,4 @@
-package com.QiMonth.iron_making_furnace;
+package com.qimonth.iron_making_furnace;
 
 import com.QiMonth.iron_making_furnace.registers.modblock.ModBlocks;
 import com.QiMonth.iron_making_furnace.registers.ModCreativeModeTab;
