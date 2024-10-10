@@ -1,9 +1,9 @@
 {
 	"parent": "minecraft:block/orientable",
 	"textures": {
-		"front": "iron_making_furnace:block/iron_making_furnace_controller/on",
-		"side": "iron_making_furnace:block/iron_making_furnace_controller/on",
-		"top": "iron_making_furnace:block/iron_making_furnace_controller/top",
-		"particle": "iron_making_furnace:block/iron_making_furnace_controller/top"
+		"front": "iron_making_furnace:block/controller/on",
+		"side": "iron_making_furnace:block/controller/on",
+		"top": "iron_making_furnace:block/controller/top",
+		"particle": "iron_making_furnace:block/controller/top"
 	}
 }

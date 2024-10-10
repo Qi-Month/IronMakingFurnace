@@ -1,9 +1,22 @@
-{
-    "libs": [
-        {
-            "name": "Create",
-            "modid": "create",
-            "version": "0.5.1f"
-        }
-    ]
-}
+[
+    {
+        "name": "Create",
+        "modid": "create",
+        "version": "0.5.1f"
+    },
+    {
+        "name": "Architectury",
+        "modid": "architectury",
+        "version": "9.2.14"
+    },
+    {
+        "name": "Rhino",
+        "modid": "rhinp",
+        "version": "2001.2.2"
+    },
+    {
+        "name": "KubeJS",
+        "modid": "kubejs",
+        "version": "2001.6.4"
+    }
+]

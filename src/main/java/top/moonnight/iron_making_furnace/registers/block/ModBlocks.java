@@ -1,6 +1,6 @@
-package com.qimonth.iron_making_furnace.registers.modblock;
+package top.moonnight.iron_making_furnace.registers.block;
 
-import com.QiMonth.iron_making_furnace.registers.modblock.custom.Controller;
+import top.moonnight.iron_making_furnace.registers.block.custom.Controller;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -14,8 +14,8 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
-import static com.QiMonth.iron_making_furnace.IronMakingFurnace.MODID;
-import static com.QiMonth.iron_making_furnace.registers.moditem.ModItems.ITEMS;
+import static top.moonnight.iron_making_furnace.IronMakingFurnace.MODID;
+import static top.moonnight.iron_making_furnace.registers.item.ModItems.ITEMS;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister
@@ -44,8 +44,8 @@ public class ModBlocks {
                     .strength(2.0f, 6.0f)
                     // 这边是一个比较运算符, 当条件符合ON的时候返回15的亮度,否则为3
                     .lightLevel(state -> state.getValue(Controller.ON) ? 15 : 3)
-            ));
-
+            )
+    );
 
     // 砖块
     public static final RegistryObject<Block> IRON_MAKING_FURNACE_BRICKS = registerBlock("iron_making_furnace_bricks", () ->
@@ -53,5 +53,6 @@ public class ModBlocks {
                     .copy(Blocks.BRICKS)
                     .sound(SoundType.STONE)
                     .strength(2.0f, 6.0f)
-            ));
+            )
+    );
 }

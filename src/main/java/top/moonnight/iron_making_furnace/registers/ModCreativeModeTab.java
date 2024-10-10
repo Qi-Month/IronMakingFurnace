@@ -1,7 +1,7 @@
-package com.qimonth.iron_making_furnace.registers;
+package top.moonnight.iron_making_furnace.registers;
 
-import com.QiMonth.iron_making_furnace.registers.modblock.ModBlocks;
-import com.QiMonth.iron_making_furnace.registers.moditem.ModItems;
+import top.moonnight.iron_making_furnace.registers.block.ModBlocks;
+import top.moonnight.iron_making_furnace.registers.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -9,7 +9,7 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
-import static com.QiMonth.iron_making_furnace.IronMakingFurnace.MODID;
+import static top.moonnight.iron_making_furnace.IronMakingFurnace.MODID;
 
 public class ModCreativeModeTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister
